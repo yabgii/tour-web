@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore The World</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="container">
+        <div class="overlay">
+          <h1><pre>Explore The <span>World!</pre></span></h1>
+          <p>
+            Embark on a journey across the globe. Discover new cultures, taste
+            exotic cuisines, and create <br />
+            unforgettable memories. Your adventure starts here!
+          </p>
+          <button class="btn">
+            <a href="#">vist Now </a><i class="fa-solid fa-arrow-down fa-beat"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <header>
+      <nav>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+            <li ><a href="#blog">blog</a></li>
+          <li id="des">
+            <a href="#destinations">Destinations</a>
+            <ul class="dropdown">
+              <li><a href="#europe">northern Ethiopia</a></li>
+              <li><a href="#asia">estern Ethiopia</a></li>
+              <li><a href="#america">westernEthiopia</a></li>
+              <li><a href="#america">southern Ethiopia</a></li>
+              <li><a href="#america"> national parks</a></li>
+            </ul>
+          </li>
+
+          <li id="pack">
+            <a href="#packages">Packages</a>
+            <ul class="dropdown">
+              <li><a href="#europe">caltural Tours</a></li>
+              <li><a href="#asia">historic tours</a></li>
+              <li><a href="#america">wilde life tours</a></li>
+              <li><a href="#america">hiking </a></li>
+            </ul>
+          </li>
+
+          <li id="tips">
+            <a href="#tips">Tips</a>
+            <ul class="dropdown">
+              <li><a href="#europe">where to go?</a></li>
+              <li><a href="#asia">why visit ethiopia</a></li>
+              <li><a href="#america">when to travel to ethiopia</a></li>
+              <li><a href="#america">eating & drinking in ethiopia</a></li>
+              <li><a href="#america">holidays in ethiopia</a></li>
+            </ul>
+          </li>
+
+          <li id="about">
+            <a href="#about">About</a>
+            <ul class="dropdown">
+              <li><a href="#europe">who we are</a></li>
+              <li><a href="#asia">why us?</a></li>
+              <li><a href="#america">our servies</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <label  class="icon" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></label>
+      </nav>
+      
+    </header>
+
+    <section id="places">
+        <h1 >where to go?</h1>
+
+      <div class="slidecon">
+        <button class="pre-btn"><i class="fa-solid fa-less-than"></i></button>
+        <button class="nxt-btn"><i class="fa-solid fa-greater-than"></i></button>
+      </div>
+        
+        <div class="place_container">
+           
+            <div class="card">
+                <img src="assets/lalibela1.jpg" alt="Lalibela">
+                <div class="card-content">
+                    <h3>Lalibela</h3>
+                    <p>Some description about Lalibela.</p>
+                  
+                    <button class="view"><a href="#">Explore</a></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/aksum2.jpg" alt="Aksum">
+                <div class="card-content">
+                    <h3>Aksum</h3>
+                    <p>Some description about Aksum.</p>
+                    <button class="view"><a href="#">Explore</a></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/5.jpg" alt="Aksum">
+                <div class="card-content">
+                    <h3>denkel</h3>
+                    <p>Some description about Aksum.</p>
+                    <button class="view"><a href="#">Explore</a></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/fasile2.jpg" alt="Aksum">
+                <div class="card-content">
+                    <h3>Fasiledes</h3>
+                    <p>Some description about Aksum.</p>
+                    <button class="view"><a href="#">Explore</a></button>
+                </div>
+            </div>
+
+            <div class="card">
+              <img src="assets/images (1).jpg" alt="Aksum">
+              <div class="card-content">
+                  <h3>Fasiledes</h3>
+                  <p>Some description about Aksum.</p>
+                  <button class="view"><a href="#">Explore</a></button>
+              </div>
+          </div>
+          <div class="card">
+            <img src="assets/images (2).jpg" alt="Aksum">
+            <div class="card-content">
+                <h3>Fasiledes</h3>
+                <p>Some description about Aksum.</p>
+                <button class="view"><a href="#">Explore</a></button>
+            </div>
+        </div>
+        <div class="card">
+          <img src="assets/images (3).jpg" alt="Aksum">
+          <div class="card-content">
+              <h3>Fasiledes</h3>
+              <p>Some description about Aksum.</p>
+              <button class="view"><a href="#">Explore</a></button>
+          </div>
+
+      </div>
+
+      <div class="card">
+        <img src="assets/dnk.jpg" alt="Aksum">
+        <div class="card-content">
+            <h3>Fasiledes</h3>
+            <p>Some description about Aksum.</p>
+            <button class="view"><a href="#">Explore</a></button>
+        </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/fasile2.jpg" alt="Aksum">
+      <div class="card-content">
+          <h3>Fasiledes</h3>
+          <p>Some description about Aksum.</p>
+          <button class="view"><a href="#">Explore</a></button>
+      </div>
+  </div>
+
+  <div class="card">
+        <img src="assets/fasile2.jpg" alt="Aksum">
+        <div class="card-content">
+            <h3>Fasiledes</h3>
+            <p>Some description about Aksum.</p>
+            <button class="view"><a href="#">Explore</a></button>
+        </div>
+    </div>
+        
+    <div class="card">
+      <img src="assets/fasile2.jpg" alt="Aksum">
+      <div class="card-content">
+          <h3>Fasiledes</h3>
+          <p>Some description about Aksum.</p>
+          <button class="view"><a href="#">Explore</a></button>
+      </div>
+  </div>
+  <div class="card">
+    <img src="assets/fasile2.jpg" alt="Aksum">
+    <div class="card-content">
+        <h3>Fasiledes</h3>
+        <p>Some description about Aksum.</p>
+        <button class="view"><a href="#">Explore</a></button>
+    </div>
+</div>
+        </div>
+    </section>
+    
+
+    <section id="travel">
+       <h2>What type of traveler are you?</h2>
+       
+        <div class="con">
+          <div class="typ1">
+            <i class="fa-solid fa-cross" style="color: #e6d7a3;"> <p>relegious traveler</p></i> 
+           
+          </div>
+
+          <div class="typ2">
+            
+            <i class="fa-solid fa-camera-retro fa-xs" style="color: #74C0FC;"><p>photogerapher</p></i>
+            
+          </div>
+
+          <div class="typ3">
+            <i class="fa-solid fa-leaf fa-sm" style="color: #1ad19a;"> <p>nature lover</p></i> 
+           
+          </div>
+
+          <div class="typ4">
+            <i class="fa-solid fa-person-skating fa-lg" style="color: #B197FC;"> <p>For fun</p></i> 
+           
+          </div>
+        </div>
+    </section>
+
+
+        <section id="blog">
+          <div class="slidecon">
+            <button class="pre-btn"><i class="fa-solid fa-less-than"></i></button>
+            <button class="nxt-btn"><i class="fa-solid fa-greater-than"></i></button>
+          </div>
+          <h1>Did you know?</h1>
+        <div class="blogcont">
+          
+         
+          <div class="blogimg">
+            <img src="assets/abay1.jpg" alt="Nile River">
+            <div class="blogdesc">
+              <h3>Nile</h3>
+              <p>
+                Ethiopia have the longest river in  theworld  with approximately 4,100 miles,
+                Flowing through 11 countries, including
+                 Ethiopia, Sudan, and Egypt, and also 
+                called the life line of Africa.
+                and that the government of Ethiopia
+                have created the biggest dam in Africa </p>
+
+            </div>
+          </div>
+
+          <div class="blogimg">
+            <img src="assets/abay1.jpg" alt="Nile River">
+            <div class="blogdesc">
+              <h3>Nile</h3>
+              <p>
+                Ethiopia have the longest river in  theworld  with approximately 4,100 miles,
+                Flowing through 11 countries, including
+                 Ethiopia, Sudan, and Egypt, and also 
+                called the life line of Africa.
+                and that the government of Ethiopia
+                have created the biggest dam in Africa </p>
+
+            </div>
+          </div>
+
+
+          <div class="blogimg">
+            <img src="assets/abay1.jpg" alt="Nile River">
+            <div class="blogdesc">
+              <h3>Nile</h3>
+              <p>
+                Ethiopia have the longest river in  theworld  with approximately 4,100 miles,
+                Flowing through 11 countries, including
+                 Ethiopia, Sudan, and Egypt, and also 
+                called the life line of Africa.
+                and that the government of Ethiopia
+                have created the biggest dam in Africa </p>
+
+            </div>
+          </div>
+
+          <div class="blogimg">
+            <img src="assets/abay1.jpg" alt="Nile River">
+            <div class="blogdesc">
+              <h3>Nile</h3>
+              <p>
+                Ethiopia have the longest river in  theworld  with approximately 4,100 miles,
+                Flowing through 11 countries, including
+                 Ethiopia, Sudan, and Egypt, and also 
+                called the life line of Africa.
+                and that the government of Ethiopia
+                have created the biggest dam in Africa </p>
+
+            </div>
+          </div>
+
+
+
+          <div class="blogimg">
+            <img src="assets/abay1.jpg" alt="Nile River">
+            <div class="blogdesc">
+              <h3>Nile</h3>
+              <p>
+                Ethiopia have the longest river in  theworld  with approximately 4,100 miles,
+                Flowing through 11 countries, including
+                 Ethiopia, Sudan, and Egypt, and also 
+                called the life line of Africa.
+                and that the government of Ethiopia
+                have created the biggest dam in Africa </p>
+
+            </div>
+          </div>
+
+
+          <div class="blogimg">
+            <img src="assets/abay1.jpg" alt="Nile River">
+            <div class="blogdesc">
+              <h3>Nile</h3>
+              <p>
+                Ethiopia have the longest river in  theworld  with approximately 4,100 miles,
+                Flowing through 11 countries, including
+                 Ethiopia, Sudan, and Egypt, and also 
+                called the life line of Africa.
+                and that the government of Ethiopia
+                have created the biggest dam in Africa </p>
+
+            </div>
+          </div>
+          
+        </div>
+
+        </section>
+
+
+
+
+    <section id="about" class="about">
+      <div class="about-section">
+        <h1>About Us</h1>
+        <p>
+          Welcome to Ytour! We are passionate about creating unforgettable
+          travel experiences. Our mission is to help you explore the world with
+          ease and excitement, offering a range of travel packages and
+          destinations that cater to all tastes and budgets.
+        </p>
+      </div>
+      <div class="pic_warpper">
+        <img src="assets/undraw_team_spirit_re_yl1v.svg" />
+      </div>
+    </section>
+
+    
+<section class="whyus">
+  <h1>why choose us</h1>
+    <div class="reason">
+      
+      <div class="reasoncon">
+        <i class="fa-solid fa-heart"></i>
+        <h2>Shared Passion</h2>
+        <p>As owners of the company we love to engage with our clients, especially in the spirit & Culture of Colours of Ethiopia having seen and photographed the Beauty of Ethiopia.</p>
+      </div>
+      
+
+      <div class="reasoncon2">
+        <i class="fa-solid fa-heart"></i>
+        <h2>Shared Passion</h2>
+        <p>As owners of the company we love to engage with our clients, especially in the spirit & Culture of Colours of Ethiopia having seen and photographed the Beauty of Ethiopia.</p>
+      </div>
+
+
+      <div class="reasoncon3">
+        <i class="fa-solid fa-heart"></i>
+        <h2>Shared Passion</h2>
+        <p>As owners of the company we love to engage with our clients, especially in the spirit & Culture of Colours of Ethiopia having seen and photographed the Beauty of Ethiopia.</p>
+      </div>
+
+     
+    </div>
+
+</section>
+   
+<!-- <section class="trst">
+
+    <div class="test-container">
+      <div class="review">
+        <img src="assets/5.jpg" alt="testeomnyal">
+        <div class="name">
+          <h3>Yeabesira Alemayehu</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorum impedit saepe nisi earum, voluptas mollitia minima numquam debitis illum commodi maiores. Earum nam unde optio at odio dolores accusantium?</p>
+         <div class="input">
+          <input type="range" id="slider">
+          <span id="current">50</span>
+         </div>
+      </div>
+
+    </div>
+
+
+</section> -->
+   <sectin id="testimonials">
+
+ <div class="testimonials-heading">
+     <h1>testimonials</h1>
+
+ </div>
+    <div class="testimoneyal-box-container">
+      <div class="testimoneyal-box">
+
+          <div class="box-top">
+            <div class="profile">
+              <div class="rev-img">
+                <img src="assets/world.jpg" >
+              </div>
+              <div class="users-name">
+                <strong>yeabesira</strong>
+                <span>@yeabesira</span>
+              </div>
+            </div>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+          </div>
+          <div class="comments">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dolore? Reiciendis pariatur quidem modi. Explicabo non, iusto praesentium debitis doloribus tenetur iure possimus eius corporis consectetur asperiores ratione repellat nulla.</p>
+          </div>
+      </div>
+
+      <div class="testimoneyal-box">
+
+        <div class="box-top">
+          <div class="profile">
+            <div class="rev-img">
+              <img src="assets/world.jpg" >
+            </div>
+            <div class="users-name">
+              <strong>yeabesira</strong>
+              <span>@yeabesira</span>
+            </div>
+          </div>
+          <div class="reviews">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+
+        </div>
+        <div class="comments">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dolore? Reiciendis pariatur quidem modi. Explicabo non, iusto praesentium debitis doloribus tenetur iure possimus eius corporis consectetur asperiores ratione repellat nulla.</p>
+        </div>
+    </div>
+
+    <div class="testimoneyal-box">
+
+      <div class="box-top">
+        <div class="profile">
+          <div class="rev-img">
+            <img src="assets/world.jpg" >
+          </div>
+          <div class="users-name">
+            <strong>yeabesira</strong>
+            <span>@yeabesira</span>
+          </div>
+        </div>
+        <div class="reviews">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+
+      </div>
+      <div class="comments">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dolore? Reiciendis pariatur quidem modi. Explicabo non, iusto praesentium debitis doloribus tenetur iure possimus eius corporis consectetur asperiores ratione repellat nulla.</p>
+      </div>
+  </div>
+
+  <div class="testimoneyal-box">
+
+    <div class="box-top">
+      <div class="profile">
+        <div class="rev-img">
+          <img src="assets/world.jpg" >
+        </div>
+        <div class="users-name">
+          <strong>yeabesira</strong>
+          <span>@yeabesira</span>
+        </div>
+      </div>
+      <div class="reviews">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+
+    </div>
+    <div class="comments">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dolore? Reiciendis pariatur quidem modi. Explicabo non, iusto praesentium debitis doloribus tenetur iure possimus eius corporis consectetur asperiores ratione repellat nulla.</p>
+    </div>
+</div>
+
+<div class="testimoneyal-box">
+
+  <div class="box-top">
+    <div class="profile">
+      <div class="rev-img">
+        <img src="assets/world.jpg" >
+      </div>
+      <div class="users-name">
+        <strong>yeabesira</strong>
+        <span>@yeabesira</span>
+      </div>
+    </div>
+    <div class="reviews">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+
+  </div>
+  <div class="comments">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dolore? Reiciendis pariatur quidem modi. Explicabo non, iusto praesentium debitis doloribus tenetur iure possimus eius corporis consectetur asperiores ratione repellat nulla.</p>
+  </div>
+</div>
+
+<div class="testimoneyal-box">
+
+  <div class="box-top">
+    <div class="profile">
+      <div class="rev-img">
+        <img src="assets/world.jpg" >
+      </div>
+      <div class="users-name">
+        <strong>yeabesira</strong>
+        <span>@yeabesira</span>
+      </div>
+    </div>
+    <div class="reviews">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+
+  </div>
+  <div class="comments">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dolore? Reiciendis pariatur quidem modi. Explicabo non, iusto praesentium debitis doloribus tenetur iure possimus eius corporis consectetur asperiores ratione repellat nulla.</p>
+  </div>
+</div>
+    </div>
+
+   </sectin> 
+    
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
